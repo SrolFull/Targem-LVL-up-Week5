@@ -4,5 +4,5 @@ move_x = 0;
 move_y = 0;
 move_dir = -1;
 grv = 1;
-spd = 10;
+spd = 5;
 isGround = false;

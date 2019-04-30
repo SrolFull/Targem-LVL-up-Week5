@@ -11,6 +11,7 @@ else{
 
 //Reset move variables
 move_x = 0;
+aim_vector = 0;
 //Update speed
 move_x = move_dir*spd;
 move_y +=grv;
@@ -36,9 +37,15 @@ if (place_meeting(x,y+move_y,obj_ground)){
 }
 else {	isGround = false;	}
 //Update direction
-if (distance_to_object(obj_player) < attack_range ){
+if (distance_to_object(obj_player) <= attack_range ){
+	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
 	move_dir = (obj_player.x < x)*(-1) + (obj_player.x > x);
+	//take a distance
+	if (distance_to_object(obj_player) < attack_range/2){
+		move_dir = obj_player.move_dir;
+	}
 }
+show_debug_message(aim_vector);
 //Update x,y
 x+=move_x;
 y+=move_y;
