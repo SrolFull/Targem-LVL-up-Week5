@@ -1,5 +1,14 @@
-//Update Input
-move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
+//Check HP status
+if (HP <=0) instance_destroy();
+//Update moveDir
+if (distance_to_object(obj_player) == 10){
+	//attack
+}
+else{
+	//Patrol
+}
+
+
 //Reset move variables
 move_x = 0;
 //Update speed
@@ -10,12 +19,13 @@ move_y +=grv;
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
 	repeat (abs(move_x)) {
-			if(!place_meeting(x+sign(move_x),y,obj_ground )){ x+=sign(move_x); }
+			if(!place_meeting(x+sign(move_x),y,obj_ground)){ x+=sign(move_x); }
 			else { break; }
 	}
 	move_x = 0;
+	move_dir *= -1;
 }
-//Vetrical
+//Vertical
 if (place_meeting(x,y+move_y,obj_ground)){
 	repeat(abs(move_y)){
 		if (!place_meeting(x,y+sign(move_y),obj_ground)){ y+=sign(move_y); }
@@ -25,9 +35,9 @@ if (place_meeting(x,y+move_y,obj_ground)){
 	move_y = 0;
 }
 else {	isGround = false;	}
-//Jump
-if (isGround and keyboard_check(vk_up)){
-	move_y -=15;
+//Update direction
+if (distance_to_object(obj_player) < attack_range ){
+	move_dir = (obj_player.x < x)*(-1) + (obj_player.x > x);
 }
 //Update x,y
 x+=move_x;
