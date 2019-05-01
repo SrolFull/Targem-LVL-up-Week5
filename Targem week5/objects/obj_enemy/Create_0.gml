@@ -6,3 +6,4 @@ move_dir = -1;
 grv = 1;
 spd = 5;
 isGround = false;
+attack_cooldown = 1;

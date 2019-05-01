@@ -30,6 +30,10 @@ else {	isGround = false;	}
 if (isGround and keyboard_check(vk_up)){
 	move_y -=15;
 }
+//Check HP
+if (HP <= 0 ) {
+	instance_destroy();
+}
 //Update x,y
 x+=move_x;
 y+=move_y;

@@ -39,7 +39,12 @@ if (place_meeting(x,y+move_y,obj_ground)){
 else {	isGround = false;	}
 //Update direction
 if (distance_to_object(obj_player) <= attack_range ){
+	//Distance attack
+	if (alarm[0] <= 0){
+		alarm[0] = attack_cooldown*room_speed;
+	}
 	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
+	//show_debug_message(aim_vector);
 	move_dir = (obj_player.x < x)*(-1) + (obj_player.x > x);
 	//take a distance
 	if (distance_to_object(obj_player) < attack_range/2){
