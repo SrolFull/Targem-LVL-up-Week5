@@ -8,6 +8,10 @@ move_x = move_dir*spd;
 move_y +=grv;
 
 //Check Collisions
+//with room
+if (x+move_x-sprite_width/2 <= 0 or x+move_x+sprite_width/2 >= room_width ){
+	move_x = 0;
+}
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
 	repeat (abs(move_x)) {

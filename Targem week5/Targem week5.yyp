@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "13198cda-37de-46f0-bbd5-d8d3d83375ca",
+            "Value": {
+                "id": "853deb29-487e-42b2-87ce-5f1b2035ba45",
+                "resourcePath": "rooms\\room_guildhall\\room_guildhall.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1a100cae-3e8f-45ac-8c58-561e8450c723",
             "Value": {
                 "id": "e48a5de3-edcb-4ee7-8239-3356f9e7a9d3",
