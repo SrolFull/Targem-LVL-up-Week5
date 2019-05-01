@@ -9,8 +9,17 @@ move_y +=grv;
 
 //Check Collisions
 //with room
-if (x+move_x-sprite_width/2 <= 0 or x+move_x+sprite_width/2 >= room_width ){
-	move_x = 0;
+if (x+move_x-sprite_width/2 <= 0){
+	if (room_previous(room) != -1)
+		room_goto_previous();
+	else
+		move_x = 0;
+}
+if (x+move_x+sprite_width/2 >= room_width ){
+	if (room_next(room) != -1)
+		room_goto_next();
+	else
+		move_x = 0;
 }
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
