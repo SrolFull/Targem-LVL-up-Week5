@@ -7,3 +7,4 @@ grv = 1;
 spd = 5;
 isGround = false;
 attack_cooldown = 1;
+MP_count = 5;

@@ -4,3 +4,4 @@ grv = 1;
 spd = 10;
 isGround = false;
 HP = 100;
+MP = 90;

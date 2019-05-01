@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "52bbc54c-0690-4dd9-b83e-69861fda36ee",
+            "Value": {
+                "id": "b5b20571-9007-42d8-b7df-b419bec84566",
+                "resourcePath": "objects\\obj_mp_sphere\\obj_mp_sphere.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "54daae00-da7e-4f9d-9477-cafe126b0a4f",
             "Value": {
                 "id": "a53d2820-92cc-4fcf-a62a-6b130102a747",
@@ -202,7 +210,7 @@
             "Key": "9ef6c89c-7172-4c1d-a1e5-65b1090c5552",
             "Value": {
                 "id": "0a317a50-b6d0-4e44-aa99-7a027850cf34",
-                "resourcePath": "sprites\\sprite3\\sprite3.yy",
+                "resourcePath": "sprites\\spr_arrow\\spr_arrow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -212,6 +220,14 @@
                 "id": "f33ef11c-af31-4521-b196-c3b5b43a2297",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a4d49076-852c-441a-918e-9f7659bee9b5",
+            "Value": {
+                "id": "78d68f1b-4135-4c8e-9dca-2a7b6b279683",
+                "resourcePath": "sprites\\spr_mana_sphere\\spr_mana_sphere.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

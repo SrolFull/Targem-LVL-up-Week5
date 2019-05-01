@@ -18,7 +18,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Arrows",
+            "name": "Something",
             "id": "c89b53a7-9138-45c2-b91d-d8f843289f65",
             "depth": 0,
             "grid_x": 32,

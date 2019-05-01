@@ -1,6 +1,13 @@
 if (global.pause) exit;
 //Check HP status
-if (HP <=0) instance_destroy();
+if (HP <=0) {
+	instance_destroy();
+	repeat(random_range(1,5)){
+		posx = x +random_range(-5,5);
+		posy = y +random_range(-5,5);
+		instance_create_layer(posx,posy,"Something",obj_mp_sphere);
+		}
+	}
 //Update moveDir
 if (distance_to_object(obj_player) == 10){
 	//attack
@@ -44,7 +51,6 @@ if (distance_to_object(obj_player) <= attack_range ){
 		alarm[0] = attack_cooldown*room_speed;
 	}
 	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
-	//show_debug_message(aim_vector);
 	move_dir = (obj_player.x < x)*(-1) + (obj_player.x > x);
 	//take a distance
 	if (distance_to_object(obj_player) < attack_range/2){
