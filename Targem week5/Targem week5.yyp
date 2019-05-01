@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "4fa0d234-b2c7-4660-aa25-b8748048a374",
-            "Value": {
-                "id": "50007b01-c11b-4141-b15c-aa099af2bbe9",
-                "resourcePath": "objects\\obj_guild_master\\obj_guild_master.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "50d301e1-302b-43d2-8b16-06723808cc9a",
             "Value": {
                 "id": "7d47950e-01db-4b3d-8615-afd18b680037",
@@ -247,6 +239,14 @@
             }
         },
         {
+            "Key": "8eab82e1-5ba3-474b-b3ff-6c43796ac832",
+            "Value": {
+                "id": "e32b0850-3f6d-445c-a086-00bd46c9abaf",
+                "resourcePath": "objects\\obj_guildmaster\\obj_guildmaster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "251d7bdc-499f-4aa0-acb0-c15d161685a3",
@@ -276,6 +276,14 @@
                 "id": "78d68f1b-4135-4c8e-9dca-2a7b6b279683",
                 "resourcePath": "sprites\\spr_mana_sphere\\spr_mana_sphere.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a57233dc-4ab2-4330-9003-02d021bc5d9b",
+            "Value": {
+                "id": "944e513d-08fe-4cd7-88ba-e93c5f279595",
+                "resourcePath": "scripts\\scr_open_store\\scr_open_store.yy",
+                "resourceType": "GMScript"
             }
         },
         {

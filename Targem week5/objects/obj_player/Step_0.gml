@@ -47,7 +47,6 @@ if (isGround and keyboard_check(vk_up)){
 if (HP <= 0 ) {
 	instance_destroy();
 }
-show_debug_message(MP);
 //Update x,y
 x+=move_x;
 y+=move_y;
