@@ -1,3 +1,4 @@
+if (global.pause) exit;
 //Update Input
 move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
 //Reset move variables

@@ -1,3 +1,4 @@
+if (global.pause) exit;
 //Check HP status
 if (HP <=0) instance_destroy();
 //Update moveDir
@@ -45,7 +46,6 @@ if (distance_to_object(obj_player) <= attack_range ){
 		move_dir = obj_player.move_dir;
 	}
 }
-show_debug_message(aim_vector);
 //Update x,y
 x+=move_x;
 y+=move_y;

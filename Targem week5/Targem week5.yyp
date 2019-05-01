@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "bfa3ff8a-091d-497c-9bdb-b3e0f1e24773",
+            "Value": {
+                "id": "5749767d-0600-4d57-84b3-d6cdcfe61fed",
+                "resourcePath": "objects\\obj_pause\\obj_pause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c935dc4d-8b4e-4048-a2d8-76667e3da4e9",
             "Value": {
                 "id": "13e66cf1-e2ae-4d88-8adb-f9308f4d2d1f",
@@ -268,6 +276,14 @@
                 "id": "05665b7b-b85c-41ef-83f0-336bf04437f1",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "ed75b37a-975e-4524-a153-62a164e464a2",
+            "Value": {
+                "id": "4212cd24-a452-4e1f-b026-3c6ed4eb5e32",
+                "resourcePath": "fonts\\fnt_menu\\fnt_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
