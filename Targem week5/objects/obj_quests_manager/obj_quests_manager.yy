@@ -1,38 +1,28 @@
 {
-    "id": "8eab82e1-5ba3-474b-b3ff-6c43796ac832",
+    "id": "559f2603-4335-4af4-a294-6acfe09db025",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_guildmaster",
+    "name": "obj_quests_manager",
     "eventList": [
         {
-            "id": "c3b9f55f-62d2-4622-979d-ff3f225462fa",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "8eab82e1-5ba3-474b-b3ff-6c43796ac832"
-        },
-        {
-            "id": "64ba8bf0-daf6-4c1f-af1f-a38a2cb6260e",
+            "id": "d5ba90eb-1e0d-4123-8f96-95691d08cd53",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8eab82e1-5ba3-474b-b3ff-6c43796ac832"
+            "m_owner": "559f2603-4335-4af4-a294-6acfe09db025"
         },
         {
-            "id": "2aca7142-de87-423e-84ba-a304d05eb3ce",
+            "id": "9089b3f1-8ec6-4ad8-a44c-cfe589428a59",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "8eab82e1-5ba3-474b-b3ff-6c43796ac832"
+            "eventtype": 8,
+            "m_owner": "559f2603-4335-4af4-a294-6acfe09db025"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fbf0ad7d-b079-4ba0-bd74-ca2a667f5fb6",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

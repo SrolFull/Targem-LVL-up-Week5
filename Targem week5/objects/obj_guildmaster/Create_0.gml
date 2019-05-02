@@ -8,3 +8,5 @@ text_y = y-sprite_height;
 len = string_length(text[0]);
 xx = text_x +len*8+margin*2;
 yy = text_y-margin*2-font_height;
+timer = 0;
+pressed_button = false;

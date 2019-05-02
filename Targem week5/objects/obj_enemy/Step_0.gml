@@ -1,6 +1,7 @@
 if (global.pause) exit;
 //Check HP status
 if (HP <=0) {
+	Died = true;
 	instance_destroy();
 	repeat(random_range(1,5)){
 		posx = x +random_range(-5,5);
