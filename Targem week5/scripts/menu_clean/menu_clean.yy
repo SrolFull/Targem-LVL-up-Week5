@@ -1,8 +1,8 @@
 {
-    "id": "1a100cae-3e8f-45ac-8c58-561e8450c723",
+    "id": "f7623dd5-63e6-45f6-98d3-7ee64fc266ed",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_button_action_menu",
+    "name": "menu_clean",
     "IsCompatibility": false,
     "IsDnD": false
 }
