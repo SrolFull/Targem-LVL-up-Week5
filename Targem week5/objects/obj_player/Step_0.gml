@@ -10,7 +10,7 @@ move_y +=grv;
 //Check Collisions
 //with room
 if (x+move_x-sprite_width/2 <= 0){
-	if (room_previous(room) != -1)
+	if (room_previous(room) != -1 and room_previous(room) != room_menu)
 		room_goto_previous();
 	else
 		move_x = 0;
