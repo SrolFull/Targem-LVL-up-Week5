@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0f0f3223-bd99-4aa0-99e2-9e9cbb9602cb",
+            "Value": {
+                "id": "ba772add-5b63-430e-899a-5353b269a49f",
+                "resourcePath": "views\\0f0f3223-bd99-4aa0-99e2-9e9cbb9602cb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0f9fa915-a400-422a-be0e-362dfb85e53f",
             "Value": {
                 "id": "7ed9a0f7-ee46-40a2-b38b-51db3f85561b",
@@ -68,6 +76,14 @@
                 "id": "853deb29-487e-42b2-87ce-5f1b2035ba45",
                 "resourcePath": "rooms\\room_guildhall\\room_guildhall.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "19930c73-20a7-4641-a8c2-880553da1e6b",
+            "Value": {
+                "id": "fe991c67-bc49-4994-8f6c-2b1715990179",
+                "resourcePath": "scripts\\scr_draw_skills\\scr_draw_skills.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -164,6 +180,14 @@
                 "id": "3d582e11-2818-41ca-a7d3-0a706c7e66e8",
                 "resourcePath": "views\\4176b222-ffd9-4d55-bd6a-65df34d98f4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45ff0870-1cf9-4522-bef1-d5a999cd59ba",
+            "Value": {
+                "id": "1b94ca22-6cba-492a-ace0-166f9fbdaf92",
+                "resourcePath": "scripts\\scr_draw_qeusts\\scr_draw_qeusts.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -300,6 +324,14 @@
                 "id": "251d7bdc-499f-4aa0-acb0-c15d161685a3",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "9c376aa9-19a3-4963-afee-25690cdcbbd8",
+            "Value": {
+                "id": "518fb677-7880-450d-af28-75e154c0fba0",
+                "resourcePath": "scripts\\scr_draw_shop\\scr_draw_shop.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -555,6 +587,9 @@
         "1a100cae-3e8f-45ac-8c58-561e8450c723",
         "e9b78ee4-f096-4c7f-a38f-a67ea5988f70",
         "a57233dc-4ab2-4330-9003-02d021bc5d9b",
+        "45ff0870-1cf9-4522-bef1-d5a999cd59ba",
+        "9c376aa9-19a3-4963-afee-25690cdcbbd8",
+        "19930c73-20a7-4641-a8c2-880553da1e6b",
         "a89e5985-d161-4b49-bf6d-fec7743f38ac"
     ],
     "tutorial": ""
