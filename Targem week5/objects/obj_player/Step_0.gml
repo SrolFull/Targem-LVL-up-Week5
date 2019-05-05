@@ -3,6 +3,10 @@ if (global.pause) exit;
 image_index = current_colour;
 //Update Input
 move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
+if (move_dir == 1)
+	image_xscale = 1;
+else if (move_dir == -1)
+		image_xscale = -1;
 //Reset move variables
 move_x = 0;
 //Update speed
