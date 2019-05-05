@@ -9,22 +9,13 @@ if (HP <=0) {
 		instance_create_layer(posx,posy,"Something",obj_mp_sphere);
 		}
 	}
-//Update moveDir
-if (distance_to_object(obj_player) == 10){
-	//attack
-}
-else{
-	//Patrol
-}
-
-
 //Reset move variables
 move_x = 0;
 aim_vector = 0;
+
 //Update speed
 move_x = move_dir*spd;
 move_y +=grv;
-
 //Check Collisions
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
@@ -45,19 +36,29 @@ if (place_meeting(x,y+move_y,obj_ground)){
 	move_y = 0;
 }
 else {	isGround = false;	}
-//Update direction
-if (distance_to_object(obj_player) <= attack_range ){
-	//Distance attack
-	if (alarm[0] <= 0){
-		alarm[0] = attack_cooldown*room_speed;
-	}
+//Attack
+if (distance_to_object(obj_player) <= max_attack_range ){
 	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
-	move_dir = (obj_player.x < x)*(-1) + (obj_player.x > x);
+	move_dir = 0;
 	//take a distance
-	if (distance_to_object(obj_player) < attack_range/2){
-		move_dir = obj_player.move_dir;
+	if (distance_to_object(obj_player) < min_attack_range){
+		move_dir = obj_player.move_dir;		
 	}
+	//status
+	sprite_index = spr_enemy_attack;
+	if (aim_vector >=90 and aim_vector <= 270) image_xscale = -1;
+	else image_xscale =1;
+	isAttack = true;
 }
+else {
+	sprite_index = spr_enemy_walk;
+	image_xscale = move_dir;
+}
+//outside
+if (!place_meeting(x+move_x - sprite_width,y+10 ,obj_ground) or
+	!place_meeting(x+move_x + sprite_width,y+10,obj_ground))
+	move_dir*=-1
+//sprite updat
 //Update x,y
 x+=move_x;
 y+=move_y;

@@ -21,10 +21,11 @@ if (x+move_x+sprite_width/2 >= room_width ){
 	else
 		move_x = 0;
 }
+//with ground
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
 	repeat (abs(move_x)) {
-			if(!place_meeting(x+sign(move_x),y,obj_ground )){ x+=sign(move_x); }
+			if(!place_meeting(x+sign(move_x),y,obj_ground)){ x+=sign(move_x); }
 			else { break; }
 	}
 	move_x = 0;

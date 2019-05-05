@@ -1,11 +1,13 @@
 HP = 100;
-attack_range = 200;
+max_attack_range = 400;
+min_attack_range = 100;
 move_x = 0;
 move_y = 0;
 move_dir = -1;
 grv = 1;
-spd = 5;
+spd = 3;
 isGround = false;
 attack_cooldown = 1;
 MP_count = 5;
 Died = false;
+isAttack = false;

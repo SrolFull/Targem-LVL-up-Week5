@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1245dfa2-5820-4c67-9132-f9c491fcd6aa",
+            "Value": {
+                "id": "77ecd482-4bc3-4cef-91dd-cfed2c4e23af",
+                "resourcePath": "sprites\\spr_ground3\\spr_ground3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13198cda-37de-46f0-bbd5-d8d3d83375ca",
             "Value": {
                 "id": "853deb29-487e-42b2-87ce-5f1b2035ba45",
@@ -116,6 +124,22 @@
                 "id": "426b6475-cd04-4add-96a9-cf4612e02c7f",
                 "resourcePath": "views\\26111b39-c74e-4d6e-ad52-aec0bc80f80c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2792e61b-06a7-48e9-b69b-a2ed0f827a2b",
+            "Value": {
+                "id": "dde8b7ba-4915-4779-9695-35dd852cf6cb",
+                "resourcePath": "sprites\\spr_ground2\\spr_ground2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "27b4aef9-e7aa-453d-a30d-6ec46569bb03",
+            "Value": {
+                "id": "73db7e7f-e4d1-41e9-8952-da371359072d",
+                "resourcePath": "sprites\\spr_background_room0\\spr_background_room0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -218,7 +242,7 @@
             "Key": "4651682f-eb08-4f04-948d-cac6157e63bf",
             "Value": {
                 "id": "995c4b62-a5d2-4fe9-9e94-a029728a8000",
-                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourcePath": "sprites\\spr_enemy_walk\\spr_enemy_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "7d116fda-5936-4554-a726-12d32b488d87",
+            "Value": {
+                "id": "40622397-2569-4c9a-9fcb-ab3ebefebfa8",
+                "resourcePath": "objects\\obj_ground1\\obj_ground1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
                 "id": "8ef98265-8b88-4fcf-9ab6-1abd8f5ebd1a",
@@ -372,6 +404,22 @@
                 "id": "251d7bdc-499f-4aa0-acb0-c15d161685a3",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "99416b5b-584b-4d4d-8525-d5ab02355bbd",
+            "Value": {
+                "id": "b107d68f-21f6-47ec-b016-a1db11f8baf0",
+                "resourcePath": "sprites\\spr_enemy_attack\\spr_enemy_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ba6a423-1fbe-4f06-ba09-b18adee587ec",
+            "Value": {
+                "id": "de69959b-ff8a-4f27-8ba9-67a9b6812c60",
+                "resourcePath": "views\\9ba6a423-1fbe-4f06-ba09-b18adee587ec.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -652,6 +700,14 @@
                 "id": "c60c4bbe-5bcd-4213-8e7d-ddc84200fd49",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "f9f989eb-6308-44ca-9fcf-94ff06b7f063",
+            "Value": {
+                "id": "638dcd36-a581-4eb4-af3a-21a90a2234be",
+                "resourcePath": "sprites\\spr_ground1\\spr_ground1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
