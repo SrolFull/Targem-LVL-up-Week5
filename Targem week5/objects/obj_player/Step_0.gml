@@ -50,3 +50,6 @@ if (HP <= 0 ) {
 //Update x,y
 x+=move_x;
 y+=move_y;
+
+
+

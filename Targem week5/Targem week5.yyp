@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "4920ef6d-6063-4ce2-83f4-856a5d27f651",
+            "Value": {
+                "id": "e050d83b-a03c-4dd9-ac90-658086d3e4db",
+                "resourcePath": "objects\\obj_magic_sphere_1\\obj_magic_sphere_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50d301e1-302b-43d2-8b16-06723808cc9a",
             "Value": {
                 "id": "7d47950e-01db-4b3d-8615-afd18b680037",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "9e25fc91-6ec3-4082-acbb-c4fc43b74533",
+            "Value": {
+                "id": "64b9b3cc-4e64-4e66-ac87-155d73cf0443",
+                "resourcePath": "sprites\\spr_magic_sphere_1\\spr_magic_sphere_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ef6c89c-7172-4c1d-a1e5-65b1090c5552",
             "Value": {
                 "id": "0a317a50-b6d0-4e44-aa99-7a027850cf34",
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "d45e8147-f534-4261-ab1f-343c14647723",
+            "Value": {
+                "id": "1220865e-2db3-4c14-8fc1-90c9955a14f4",
+                "resourcePath": "objects\\obj_magic_sphere_3\\obj_magic_sphere_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d59f87de-2ded-444b-abab-f76272eeb0ca",
             "Value": {
                 "id": "3b0375d8-581f-4e9e-8feb-1900184d08c9",
@@ -587,6 +611,22 @@
             "Value": {
                 "id": "afe13d14-f907-478b-974d-f4a5e6ea0f85",
                 "resourcePath": "objects\\obj_volume\\obj_volume.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbc38ffd-058a-4e16-b2ed-df2c779bd41e",
+            "Value": {
+                "id": "3d4e7823-5cd5-4e82-8e3c-277b6756c7f4",
+                "resourcePath": "objects\\obj_magic_sphere_4\\obj_magic_sphere_4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "defb97e8-f312-4f8f-b875-8d47dd1ec387",
+            "Value": {
+                "id": "a895e6ef-6dc0-4aa3-9d20-90dda1752a3f",
+                "resourcePath": "objects\\obj_magic_sphere_2\\obj_magic_sphere_2.yy",
                 "resourceType": "GMObject"
             }
         },
