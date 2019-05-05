@@ -52,6 +52,13 @@ if (isGround and keyboard_check(vk_up)){
 //Check HP
 if (HP <= 0 ) {
 	instance_destroy();
+	instance_destroy(obj_hp_bar);
+	instance_destroy(obj_mp_bar);
+	instance_destroy(obj_magic_sphere_1);
+	instance_destroy(obj_magic_sphere_2);
+	instance_destroy(obj_magic_sphere_3);
+	instance_destroy(obj_magic_sphere_4);
+	instance_destroy(obj_camera);
 	//Как-то закончить игру?
 }
 //Update x,y
