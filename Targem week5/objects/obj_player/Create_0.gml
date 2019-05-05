@@ -6,7 +6,9 @@ isGround = false;
 HP = 100;
 MP = 90;
 
-colours[0] = 3;
-colours[1] = 3;
-colours[2] = 3;
-colours[3] = 3;
+current_sphere = 0;
+current_colour = 0;
+colours[0] = 0;
+colours[1] = 0;
+colours[2] = 0;
+colours[3] = 0;

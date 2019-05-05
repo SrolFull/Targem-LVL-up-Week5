@@ -1,4 +1,9 @@
 if (global.pause) exit;
+//Change colour
+if (current_sphere > 4)
+	image_index = colours[3];
+else
+	image_index = current_colour;
 //Update Input
 move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
 //Reset move variables
