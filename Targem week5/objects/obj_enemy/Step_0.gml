@@ -49,7 +49,6 @@ if (distance_to_object(obj_player) <= max_attack_range ){
 	isAttack = true;
 }
 else {
-	show_debug_message("Walk");
 	isAttack = false;
 	sprite_index = spr_enemy_walk;
 	image_xscale = move_dir;

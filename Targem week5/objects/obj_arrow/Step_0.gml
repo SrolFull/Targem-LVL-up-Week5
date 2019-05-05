@@ -5,7 +5,10 @@ y-=sin(vector)*spd;
 
 //collision with ground
 if (place_meeting(x,y,obj_ground)){
-	instance_destroy();
+	if (alarm[0]  <= 0){
+		alarm[0] = room_speed*4;
+	}
+	spd = 0;
 }
 
 //collision with player

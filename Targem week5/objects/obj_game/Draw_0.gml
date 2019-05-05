@@ -3,5 +3,4 @@
 with(obj_player){
 draw_set_color(c_yellow);
 draw_rectangle(0,room_height,room_width/100*Exp,room_height-10,false);
-show_debug_message(Exp);
 }

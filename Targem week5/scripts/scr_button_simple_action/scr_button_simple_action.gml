@@ -3,7 +3,7 @@ switch (button.ID)
 {
 	case "ng":
 	{
-		room_goto(room0);
+		room_goto(room_guildhall);
 		break;
 	}
 	case "e":
