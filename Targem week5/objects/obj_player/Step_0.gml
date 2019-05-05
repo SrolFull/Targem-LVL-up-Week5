@@ -52,6 +52,7 @@ if (isGround and keyboard_check(vk_up)){
 //Check HP
 if (HP <= 0 ) {
 	instance_destroy();
+	//Как-то закончить игру?
 }
 //Update x,y
 x+=move_x;
