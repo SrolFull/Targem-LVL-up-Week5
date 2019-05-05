@@ -5,3 +5,4 @@ spd = 10;
 isGround = false;
 HP = 100;
 MP = 90;
+Exp = 0;

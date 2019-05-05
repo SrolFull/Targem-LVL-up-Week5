@@ -11,3 +11,4 @@ attack_cooldown = 1;
 MP_count = 5;
 Died = false;
 isAttack = false;
+ExpCount = 20;

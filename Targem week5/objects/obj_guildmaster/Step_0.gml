@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.pause) exit;
 if (place_meeting(x,y,obj_player) and keyboard_check_pressed(ord("E"))){
 	if (pressed_button)
 		pressed_button = false;
@@ -14,5 +15,6 @@ if (!obj_guildmaster.pressed_button or (abs(x-obj_player.x)>100)){
 	instance_destroy(obj_button_shop);
 	instance_destroy(obj_button_spells);
 	instance_destroy(obJ_button_quests);
+	instance_destroy(obj_info_window);
 	pressed_button = false
 }

@@ -7,7 +7,9 @@ if (HP <=0) {
 		posx = x +random_range(-5,5);
 		posy = y +random_range(-5,5);
 		instance_create_layer(posx,posy,"Something",obj_mp_sphere);
+
 		}
+		obj_player.Exp +=ExpCount;
 	}
 //Reset move variables
 move_x = 0;
@@ -40,10 +42,6 @@ else {	isGround = false;	}
 if (distance_to_object(obj_player) <= max_attack_range ){
 	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
 	move_dir = 0;
-	//take a distance
-	if (distance_to_object(obj_player) < min_attack_range){
-		move_dir = obj_player.move_dir;		
-	}
 	//status
 	sprite_index = spr_enemy_attack;
 	if (aim_vector >=90 and aim_vector <= 270) image_xscale = -1;
@@ -51,6 +49,8 @@ if (distance_to_object(obj_player) <= max_attack_range ){
 	isAttack = true;
 }
 else {
+	show_debug_message("Walk");
+	isAttack = false;
 	sprite_index = spr_enemy_walk;
 	image_xscale = move_dir;
 }

@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "7b5535f0-e434-42b7-bc32-7d0ff25d7aa4",
+            "Value": {
+                "id": "0ecb1d4b-78d9-4fef-b4ac-aeed3b9e9732",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d116fda-5936-4554-a726-12d32b488d87",
             "Value": {
                 "id": "40622397-2569-4c9a-9fcb-ab3ebefebfa8",
@@ -650,7 +658,7 @@
             "Key": "ee1b8701-cafb-44db-8349-6cbcc0d2d4ce",
             "Value": {
                 "id": "122fb57a-2323-4ca6-b429-c64ea074ec80",
-                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourcePath": "sprites\\spr_shop_main\\spr_shop_main.yy",
                 "resourceType": "GMSprite"
             }
         },
