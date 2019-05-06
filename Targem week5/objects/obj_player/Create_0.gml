@@ -5,4 +5,12 @@ spd = 10;
 isGround = false;
 HP = 100;
 MP = 90;
+aim_vector = point_direction(0, 0, 0, 0);
 Exp = 0;
+
+current_sphere = 0;
+current_colour = 0;
+colours[0] = 0;
+colours[1] = 0;
+colours[2] = 0;
+colours[3] = 0;

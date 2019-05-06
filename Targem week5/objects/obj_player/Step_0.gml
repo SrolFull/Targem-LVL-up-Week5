@@ -1,6 +1,12 @@
 if (global.pause) exit;
+//Change colour
+image_index = current_colour;
 //Update Input
 move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
+if (move_dir == 1)
+	image_xscale = 1;
+else if (move_dir == -1)
+		image_xscale = -1;
 //Reset move variables
 move_x = 0;
 //Update speed
@@ -21,11 +27,10 @@ if (x+move_x+sprite_width/2 >= room_width ){
 	else
 		move_x = 0;
 }
-//with ground
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
 	repeat (abs(move_x)) {
-			if(!place_meeting(x+sign(move_x),y,obj_ground)){ x+=sign(move_x); }
+			if(!place_meeting(x+sign(move_x),y,obj_ground )){ x+=sign(move_x); }
 			else { break; }
 	}
 	move_x = 0;
@@ -47,7 +52,18 @@ if (isGround and keyboard_check(vk_up)){
 //Check HP
 if (HP <= 0 ) {
 	instance_destroy();
+	instance_destroy(obj_hp_bar);
+	instance_destroy(obj_mp_bar);
+	instance_destroy(obj_magic_sphere_1);
+	instance_destroy(obj_magic_sphere_2);
+	instance_destroy(obj_magic_sphere_3);
+	instance_destroy(obj_magic_sphere_4);
+	instance_destroy(obj_camera);
+	//Как-то закончить игру?
 }
 //Update x,y
 x+=move_x;
 y+=move_y;
+
+
+
