@@ -14,10 +14,10 @@ if (HP <=0) {
 //Reset move variables
 move_x = 0;
 aim_vector = 0;
-
 //Update speed
 move_x = move_dir*spd;
 move_y +=grv;
+
 //Check Collisions
 //Horizontal
 if (place_meeting(x+move_x,y,obj_ground)){
@@ -38,6 +38,8 @@ if (place_meeting(x,y+move_y,obj_ground)){
 	move_y = 0;
 }
 else {	isGround = false;	}
+
+
 //Attack
 if (distance_to_object(obj_player) <= max_attack_range ){
 	aim_vector = point_direction(x,y,obj_player.x, obj_player.y);
@@ -52,11 +54,13 @@ else {
 	isAttack = false;
 	sprite_index = spr_enemy_walk;
 	image_xscale = move_dir;
+	if (move_dir == 0) move_dir = 1;
 }
 //outside
 if (!place_meeting(x+move_x - sprite_width,y+10 ,obj_ground) or
 	!place_meeting(x+move_x + sprite_width,y+10,obj_ground))
-	move_dir*=-1
+	move_dir*=-1;
+	
 //sprite updat
 //Update x,y
 x+=move_x;
