@@ -9,6 +9,7 @@ MP = 90;
 one_mp = MP / 6;
 aim_vector = point_direction(0, 0, 0, 0);
 Exp = 0;
+quests = ds_list_create();
 
 current_sphere = 0;
 current_colour = 0;

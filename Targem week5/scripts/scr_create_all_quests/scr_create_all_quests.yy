@@ -1,8 +1,8 @@
 {
-    "id": "a89e5985-d161-4b49-bf6d-fec7743f38ac",
+    "id": "2b8c8e56-2967-48bc-8b67-698cc9974c99",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_1quest_kill_1_archer",
+    "name": "scr_create_all_quests",
     "IsCompatibility": false,
     "IsDnD": false
 }
