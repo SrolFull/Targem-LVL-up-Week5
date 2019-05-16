@@ -16,7 +16,7 @@ scr_button_scaling(buttons[1]);
 buttons[1].y = buttons[0].bbox_bottom + buttons[1].sprite_height / 2 + gap;
 
 buttons[2] = instance_create_layer(buttons[0].x, 0, "layer_buttons", obj_button_with_text);
-buttons[2].ID = "";
+buttons[2].ID = "a";
 buttons[2].text = "Achivments";
 buttons[2].indent = indent;
 scr_button_scaling(buttons[2]);

@@ -1,8 +1,8 @@
-if (obj_menu.buttons != noone)
+if (argument0.buttons != noone)
 {
-	for (i = 0; i < array_length_1d(obj_menu.buttons); i += 1)
+	for (i = 0; i < array_length_1d(argument0.buttons); i += 1)
 	{
-		instance_destroy(obj_menu.buttons[i]);
+		instance_destroy(argument0.buttons[i]);
 	}
-	obj_menu.buttons = noone;
+	argument0.buttons = noone;
 }

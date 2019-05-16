@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "41506d05-50b0-4b0a-affa-f30dc7da890e",
+            "Value": {
+                "id": "697df584-2167-4720-98ea-7eb93ec73b30",
+                "resourcePath": "objects\\obj_main_menu\\obj_main_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4176b222-ffd9-4d55-bd6a-65df34d98f4e",
             "Value": {
                 "id": "3d582e11-2818-41ca-a7d3-0a706c7e66e8",
@@ -444,6 +452,14 @@
                 "id": "083e37bc-ac5e-4d0d-8ec0-fec49ad68c5e",
                 "resourcePath": "rooms\\room_menu\\room_menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "87e4687f-0fd1-411f-a0fb-dfe0f922ee7d",
+            "Value": {
+                "id": "cb4b4819-5be7-48b6-8659-a8eca774a723",
+                "resourcePath": "scripts\\scr_game_menu\\scr_game_menu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -839,6 +855,14 @@
             }
         },
         {
+            "Key": "f6aa0c1b-39fa-414a-b75b-4d3a49b5caba",
+            "Value": {
+                "id": "2c474758-0247-43d0-8314-dea6f4a78bd9",
+                "resourcePath": "scripts\\menu_ach\\menu_ach.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7623dd5-63e6-45f6-98d3-7ee64fc266ed",
             "Value": {
                 "id": "f633b4d9-57c4-402b-8def-0ab0e7404f9a",
@@ -902,7 +926,9 @@
         "43298536-c409-451a-af6d-425e1efc9a38",
         "082d2c3f-817c-45c0-bcbd-6ff543deba30",
         "f7623dd5-63e6-45f6-98d3-7ee64fc266ed",
-        "bfe5fa5a-2332-4b8e-ba5b-2d35a65ad9e4"
+        "bfe5fa5a-2332-4b8e-ba5b-2d35a65ad9e4",
+        "87e4687f-0fd1-411f-a0fb-dfe0f922ee7d",
+        "f6aa0c1b-39fa-414a-b75b-4d3a49b5caba"
     ],
     "tutorial": ""
 }
