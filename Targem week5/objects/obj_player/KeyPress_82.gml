@@ -1,16 +1,11 @@
 //End the spell
-if (alarm[0] <= 0){
-	MP-=10;
-	//if (colours[0] = 1 and colours[0] = 2)
-	if (instance_exists(obj_enemy)) {
-		aim_vector = point_direction(x, y, obj_enemy.x, obj_enemy.y);
-	}
-	else {
-		aim_vector = point_direction(x, y, 10000, y);
-	}
+
+current_spell = chr(colours[0] + 96) + chr(colours[1] + 96) + chr(colours[2] + 96) + chr(colours[3] + 96);
+show_debug_message(current_spell);
+if (alarm[0] <= 0 and MP > 0 and ds_map_exists(unlocked_spells, current_spell)){
+	MP -= 10;
+	aim_vector = point_direction(x, y, 10000 * image_xscale, y);
 	alarm[0] = 1;
-	//Другой вид атаки
-	//if ()
 }
 for (var j = 0; j < 4; j++) {
 	colours[j] = 0;

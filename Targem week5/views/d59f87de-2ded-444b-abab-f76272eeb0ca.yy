@@ -5,6 +5,7 @@
     "name": "d59f87de-2ded-444b-abab-f76272eeb0ca",
     "children": [
         "b62fbefb-39f7-4066-b6ba-8ad507596e7d",
+        "7d116fda-5936-4554-a726-12d32b488d87",
         "d76cb503-0ad0-461f-a4d7-859d171e3ce7",
         "bfa3ff8a-091d-497c-9bdb-b3e0f1e24773",
         "62f779bc-b0a1-459b-96f4-5645b42e3a41",
@@ -13,7 +14,6 @@
         "0f9fa915-a400-422a-be0e-362dfb85e53f",
         "559f2603-4335-4af4-a294-6acfe09db025",
         "f3515cf9-abac-4c6e-bc18-41bcc90e8ab8",
-        "7d116fda-5936-4554-a726-12d32b488d87",
         "7b5535f0-e434-42b7-bc32-7d0ff25d7aa4",
         "8c063fe6-798e-48aa-acf6-ea8d20bd181a",
         "3176349a-f562-4eaf-bb36-e874be034dd0",
@@ -24,7 +24,9 @@
         "dbc38ffd-058a-4e16-b2ed-df2c779bd41e",
         "9aba0c7c-b6e1-4202-97e7-c74c70604add",
         "a0c89566-c91c-4787-88d7-1967919bb308",
-        "6678995b-99ff-42f2-b858-ce6788194e35"
+        "6678995b-99ff-42f2-b858-ce6788194e35",
+        "08ef24ed-de89-4d0d-99a5-f5ab59284fec",
+        "234aa1d6-df44-4826-ae7b-ebcd0c29caac"
     ],
     "filterType": "GMObject",
     "folderName": "objects",

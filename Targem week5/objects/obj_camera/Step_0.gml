@@ -1,3 +1,5 @@
+if (global.pause) exit;
+
 x = following.x;
 y = following.y;
 

@@ -5,11 +5,14 @@ spd = 10;
 isGround = false;
 HP = 100;
 one_hp = HP / 6;
-MP = 90;
+MP = 100;
 one_mp = MP / 6;
 aim_vector = point_direction(0, 0, 0, 0);
 Exp = 0;
 
+unlocked_spells = ds_map_create();
+ds_map_add(unlocked_spells, "abcd", obj_spell_ASDF);
+ds_map_add(unlocked_spells, "aaaa", obj_spell_AAAA);
 current_sphere = 0;
 current_colour = 0;
 colours[0] = 0;

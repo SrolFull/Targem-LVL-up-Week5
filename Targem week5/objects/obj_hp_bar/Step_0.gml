@@ -1,3 +1,5 @@
+if (global.pause) exit;
+
 if (obj_player.HP / one_hp - 1 < 0)
 	image_index = 0;
 else

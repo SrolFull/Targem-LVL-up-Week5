@@ -1,6 +1,7 @@
 if (global.pause) exit;
 //Change colour
 image_index = current_colour;
+
 //Update Input
 move_dir = keyboard_check(vk_right)-keyboard_check(vk_left);
 if (move_dir == 1)
@@ -29,17 +30,17 @@ if (x+move_x+sprite_width/2 >= room_width ){
 		move_x = 0;
 }
 //Horizontal
-if (place_meeting(x+move_x,y,obj_ground)){
+if (place_meeting(x+move_x,y,obj_ground) or place_meeting(x+move_x,y,obj_ground1)){
 	repeat (abs(move_x)) {
-			if(!place_meeting(x+sign(move_x),y,obj_ground )){ x+=sign(move_x); }
+			if(!place_meeting(x+sign(move_x),y,obj_ground) and !place_meeting(x+sign(move_x),y,obj_ground1)){ x+=sign(move_x); }
 			else { break; }
 	}
 	move_x = 0;
 }
 //Vetrical
-if (place_meeting(x,y+move_y,obj_ground)){
+if (place_meeting(x,y+move_y,obj_ground) or place_meeting(x,y+move_y,obj_ground1)){
 	repeat(abs(move_y)){
-		if (!place_meeting(x,y+sign(move_y),obj_ground)){ y+=sign(move_y); }
+		if (!place_meeting(x,y+sign(move_y),obj_ground) and !place_meeting(x,y+sign(move_y),obj_ground1)){ y+=sign(move_y); }
 		else { break; }
 	}
 	isGround = true;
