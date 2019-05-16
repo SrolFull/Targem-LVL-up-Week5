@@ -1,4 +1,3 @@
-
-draw_text(x - sprite_width / 2 + indent,
-          y - sprite_height / 2 + indent,
-		  text)
+draw_set_halign(fa_center);
+draw_set_font(fnt_menu);
+draw_text(x, y - 10, text);

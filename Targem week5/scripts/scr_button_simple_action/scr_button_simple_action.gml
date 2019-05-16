@@ -4,6 +4,7 @@ switch (button.ID)
 	case "ng":
 	{
 		room_goto(room_guildhall);
+		obj_main_menu.new_game = true;
 		break;
 	}
 	case "e":
@@ -13,7 +14,7 @@ switch (button.ID)
 	}
 	case "o":
 	{
-		menu_clean();
+		menu_clean(obj_menu);
 		obj_menu.buttons = menu_options();
 		break;
 	}
@@ -46,8 +47,27 @@ switch (button.ID)
 	}
 	case "b":
 	{
-		menu_clean();
+		menu_clean(obj_menu);
 		obj_menu.buttons = menu_main();
+		break;
+	}
+	case "mm":
+	{
+		global.pause = false;
+		menu_clean(obj_main_menu);
+		room_goto(room_menu);
+		break;
+	}
+	case "c":
+	{
+		menu_clean(obj_main_menu);
+		global.pause = false;
+		break;
+	}
+	case "a":
+	{
+		menu_clean(obj_menu);
+		obj_menu.buttons = menu_ach();
 		break;
 	}
 }

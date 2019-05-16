@@ -2,6 +2,8 @@ found = fnt_menu;
 indent = 0;
 text = "test text";
 dynamic_scaling = false;
+draw_set_font(fnt_menu);
+draw_set_halign(fa_center);
 
 image_speed = 0;
 

@@ -4,5 +4,3 @@ event_inherited();
 guidance = 0;
 push = 0;
 ID = "test ID";
-
-draw_set_font(found);
