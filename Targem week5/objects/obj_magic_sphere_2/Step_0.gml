@@ -1,3 +1,5 @@
+if (global.pause) exit;
+
 i += 4;
 image_index = obj_player.colours[1];
 if (i == 360) {
