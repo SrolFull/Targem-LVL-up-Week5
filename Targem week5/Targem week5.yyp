@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2b8c8e56-2967-48bc-8b67-698cc9974c99",
+            "Value": {
+                "id": "884ad551-230f-406f-98c3-9df8e21cc7e0",
+                "resourcePath": "scripts\\scr_create_all_quests\\scr_create_all_quests.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3119bf8c-efdb-405a-bd76-60f9bdc97fca",
             "Value": {
                 "id": "eab82045-08ae-4ba4-b418-502a9d552d42",
@@ -276,6 +284,14 @@
                 "id": "a020c09b-31b0-462a-85e7-8be7a792e1b0",
                 "resourcePath": "scripts\\scr_button_simple_action\\scr_button_simple_action.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "442234e6-9878-41a2-8ecf-69f45c441e42",
+            "Value": {
+                "id": "192d1683-6096-4fea-ade5-c2241d7cafcd",
+                "resourcePath": "sprites\\spr_fontain\\spr_fontain.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "9406b055-e741-4c54-8066-5ebb27555f67",
+            "Value": {
+                "id": "471c5354-1057-415f-acf0-c8431a999682",
+                "resourcePath": "scripts\\scr_kill_1_archer_reward\\scr_kill_1_archer_reward.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "99416b5b-584b-4d4d-8525-d5ab02355bbd",
             "Value": {
                 "id": "b107d68f-21f6-47ec-b016-a1db11f8baf0",
@@ -583,6 +607,14 @@
             }
         },
         {
+            "Key": "a5047405-e1a8-4039-8a3d-c2248929907f",
+            "Value": {
+                "id": "f85093df-1abc-49a6-85ba-41bf6ac44aa7",
+                "resourcePath": "scripts\\scr_kill_1_archer_quest\\scr_kill_1_archer_quest.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a57233dc-4ab2-4330-9003-02d021bc5d9b",
             "Value": {
                 "id": "944e513d-08fe-4cd7-88ba-e93c5f279595",
@@ -596,14 +628,6 @@
                 "id": "426bbc69-e17c-40bd-a11e-f2a8f2a5d3f6",
                 "resourcePath": "views\\a7d9b774-15ec-48d7-b3a8-cbb9664c79b2.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a89e5985-d161-4b49-bf6d-fec7743f38ac",
-            "Value": {
-                "id": "6a55aece-057f-4000-8741-7ab06ba2d3ba",
-                "resourcePath": "scripts\\scr_1quest_kill_1_archer\\scr_1quest_kill_1_archer.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -751,6 +775,14 @@
             }
         },
         {
+            "Key": "daddaf2a-fffb-4f0d-a76a-31c0a2957c21",
+            "Value": {
+                "id": "2a662ffd-b504-4da8-ad8d-dd527b225e82",
+                "resourcePath": "views\\daddaf2a-fffb-4f0d-a76a-31c0a2957c21.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dbc38ffd-058a-4e16-b2ed-df2c779bd41e",
             "Value": {
                 "id": "43e93280-888e-4547-8291-7f82040dff2f",
@@ -839,6 +871,14 @@
             }
         },
         {
+            "Key": "f364453d-f580-46fd-b86d-58f797d8a03c",
+            "Value": {
+                "id": "1ac5ea4b-e95a-45a4-ad77-f302916ee309",
+                "resourcePath": "objects\\obj_fontain\\obj_fontain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "db5985f8-951e-4ee9-9c12-8fa9a72e745d",
@@ -902,7 +942,9 @@
         "45ff0870-1cf9-4522-bef1-d5a999cd59ba",
         "9c376aa9-19a3-4963-afee-25690cdcbbd8",
         "19930c73-20a7-4641-a8c2-880553da1e6b",
-        "a89e5985-d161-4b49-bf6d-fec7743f38ac",
+        "2b8c8e56-2967-48bc-8b67-698cc9974c99",
+        "a5047405-e1a8-4039-8a3d-c2248929907f",
+        "9406b055-e741-4c54-8066-5ebb27555f67",
         "7a3dbdc3-1f90-4c45-bbd2-15936df0e7ad",
         "605ecc3d-e3d8-4e44-aa82-23adb6280597",
         "43298536-c409-451a-af6d-425e1efc9a38",

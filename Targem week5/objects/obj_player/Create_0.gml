@@ -9,6 +9,7 @@ MP = 100;
 one_mp = MP / 6;
 aim_vector = point_direction(0, 0, 0, 0);
 Exp = 0;
+quests = ds_list_create();
 
 unlocked_spells = ds_map_create();
 ds_map_add(unlocked_spells, "abcd", obj_spell_ASDF);
