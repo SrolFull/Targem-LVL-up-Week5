@@ -8,26 +8,32 @@
         "d76cb503-0ad0-461f-a4d7-859d171e3ce7",
         "bfa3ff8a-091d-497c-9bdb-b3e0f1e24773",
         "62f779bc-b0a1-459b-96f4-5645b42e3a41",
+        "6678995b-99ff-42f2-b858-ce6788194e35",
         "52bbc54c-0690-4dd9-b83e-69861fda36ee",
         "8eab82e1-5ba3-474b-b3ff-6c43796ac832",
         "0f9fa915-a400-422a-be0e-362dfb85e53f",
         "559f2603-4335-4af4-a294-6acfe09db025",
         "f3515cf9-abac-4c6e-bc18-41bcc90e8ab8",
+<<<<<<< HEAD
+=======
         "7d116fda-5936-4554-a726-12d32b488d87",
         "7b5535f0-e434-42b7-bc32-7d0ff25d7aa4",
         "8c063fe6-798e-48aa-acf6-ea8d20bd181a",
+>>>>>>> master
         "3176349a-f562-4eaf-bb36-e874be034dd0",
         "b55cccfd-d238-4fe3-8d9b-f2b2fcd52da3",
         "4920ef6d-6063-4ce2-83f4-856a5d27f651",
         "defb97e8-f312-4f8f-b875-8d47dd1ec387",
         "d45e8147-f534-4261-ab1f-343c14647723",
         "dbc38ffd-058a-4e16-b2ed-df2c779bd41e",
+<<<<<<< HEAD
+        "9aba0c7c-b6e1-4202-97e7-c74c70604add"
+=======
         "9aba0c7c-b6e1-4202-97e7-c74c70604add",
         "a0c89566-c91c-4787-88d7-1967919bb308",
-        "f364453d-f580-46fd-b86d-58f797d8a03c",
-        "8e225730-fdf7-4408-b84a-6f5c1efb1eb4",
-        "eec9b143-f086-480d-ace3-bb0743b09808",
-        "96acbc87-a456-4179-b18a-414d34fb5742"
+        "6678995b-99ff-42f2-b858-ce6788194e35",
+        "f364453d-f580-46fd-b86d-58f797d8a03c"
+>>>>>>> master
     ],
     "filterType": "GMObject",
     "folderName": "objects",

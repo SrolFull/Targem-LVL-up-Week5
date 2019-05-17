@@ -1,0 +1,24 @@
+move_x = 0;
+move_y = 0;
+grv = 1;
+spd = 10;
+isGround = false;
+HP = 100;
+<<<<<<< HEAD
+MP = 90;
+aim_vector = point_direction(0, 0, 0, 0);
+=======
+one_hp = HP / 6;
+MP = 90;
+one_mp = MP / 6;
+aim_vector = point_direction(0, 0, 0, 0);
+Exp = 0;
+quests = ds_list_create();
+>>>>>>> master
+
+current_sphere = 0;
+current_colour = 0;
+colours[0] = 0;
+colours[1] = 0;
+colours[2] = 0;
+colours[3] = 0;

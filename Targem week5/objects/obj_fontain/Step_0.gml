@@ -19,4 +19,3 @@ if (not_activated){
 			}
 		}	
 	}
-show_debug_message(not_activated)
